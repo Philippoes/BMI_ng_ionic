@@ -42,7 +42,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         url: '/about',
         views: {
           'tab-about': {
-            templateURL: 'templates/about/about.html',
+            templateUrl: 'templates/about/about.html',
             controller: 'AboutController'
           }
         }

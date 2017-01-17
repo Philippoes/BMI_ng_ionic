@@ -7,4 +7,5 @@ plugins/
 
 .idea/
 .DS_Store
-bin/
+
+www/lib
