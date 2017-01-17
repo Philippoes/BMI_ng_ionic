@@ -1,0 +1,14 @@
+<ion-view title="BMI Mobile">
+  <ion-content>
+    <div class="row">
+      <div class="col">
+        <ion-list>
+          <div ng-init="data.imperialswitch=false">
+            <ion-radio ng-model="data.imperialswitch" ng-value="False">Metric</ion-radio>
+            <ion-radio ng-model="data.imperialswitch" ng-value="True">Imperial</ion-radio>
+          </div>
+        </ion-list>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

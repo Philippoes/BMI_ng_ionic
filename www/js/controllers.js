@@ -5,7 +5,8 @@ angular.module('starter.controllers', [])
     $scope.calculateBMI = function () {
       var person = new Person({
         weight: $scope.data.weight,
-        height: $scope.data.height
+        height: $scope.data.height,
+        imperialswitch: $scope.data.imperialswitch
       });
       person.calculate_bmi();
       $scope.person = person;
@@ -14,6 +15,3 @@ angular.module('starter.controllers', [])
 
   .controller('AboutController', function () {
   })
-
-  .controller('SettingsController', function () {
-  });
