@@ -3,9 +3,9 @@
     <div class="row">
       <div class="col">
         <ion-list>
-          <div ng-init="data.imperialswitch=false">
-            <ion-radio ng-model="data.imperialswitch" ng-value="false">Metric</ion-radio>
-            <ion-radio ng-model="data.imperialswitch" ng-value="true">Imperial</ion-radio>
+          <div>
+            <ion-radio ng-model="data.imperialSwitch" ng-value="false" ng-click="setUnits()">Metric</ion-radio>
+            <ion-radio ng-model="data.imperialSwitch" ng-value="true" ng-click="setUnits()">Imperial</ion-radio>
           </div>
         </ion-list>
       </div>
