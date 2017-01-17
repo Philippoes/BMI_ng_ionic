@@ -1,13 +1,9 @@
-<!--
-Create tabs with an icon and label, using the tabs-positive style.
-Each tab's child <ion-nav-view> directive will have its own
-navigation history that also transitions its views in and out.
--->
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
+  <ion-tab title="BMI Calculator" icon-off="ion-ios-calculator-outline" icon-on="ion-ios-calculator"
+           href="#/tab/calculator">
+    <ion-nav-view name="tab-calculator"></ion-nav-view>
+  </ion-tab>
   <ion-tab title="About" icon-off="ion-ios-information-outline" icon-on="ion-ios-information" href="#/tab/about">
     <ion-nav-view name="tab-about"></ion-nav-view>
-  </ion-tab>
-  <ion-tab title="BMI Calculator" icon-off="ion-ios-calculator-outline" icon-on="ion-ios-calculator" href="#/tab/calculator">
-    <ion-nav-view name="tab-calculator"></ion-nav-view>
   </ion-tab>
 </ion-tabs>
